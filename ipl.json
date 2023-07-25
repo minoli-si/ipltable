@@ -1,0 +1,105 @@
+{
+    "teams": [
+      {
+        "Pos": "1",
+        "Team": "Gujarat Titans",
+        "Matches": "14",
+        "Won": "14",
+        "Lost": "4",
+        "Points": "20",
+        "NR": "0",
+        "NRR": "+0.809"
+      },
+      {
+        "Pos": "2",
+        "Team": "Chennai Super Kings",
+        "Matches": "14",
+        "Won": "8",
+        "Lost": "5",
+        "Points": "17",
+        "NR": "1",
+        "NRR": "+0.652"
+      },
+      {
+        "Pos": "3",
+        "Team": "Lucknow Super Giants",
+        "Matches": "14",
+        "Won": "8",
+        "Lost": "5",
+        "Points": "17",
+        "NR": "1",
+        "NRR": "+0.284"
+      },
+      {
+        "Pos": "4",
+        "Team": "Mumbai Indians",
+        "Matches": "14",
+        "Won": "8",
+        "Lost": "6",
+        "Points": "16",
+        "NR": "0",
+        "NRR": "-0.044"
+      },
+      {
+        "Pos": "5",
+        "Team": "Rajasthan Royals",
+        "Matches": "14",
+        "Won": "7",
+        "Lost": "7",
+        "Points": "14",
+        "NR": "0",
+        "NRR": "+0.148"
+      },
+      {
+        "Pos": "6",
+        "Team": "Royal Challengers",
+        "Matches": "14",
+        "Won": "7",
+        "Lost": "7",
+        "Points": "14",
+        "NR": "0",
+        "NRR": "+0.135"
+      },
+      {
+        "Pos": "7",
+        "Team": "Kolkata Knight Riders",
+        "Matches": "14",
+        "Won": "6",
+        "Lost": "8",
+        "Points": "12",
+        "NR": "0",
+        "NRR": "-0.239"
+      },
+      {
+        "Pos": "8",
+        "Team": "Punjab Kings",
+        "Matches": "14",
+        "Won": "6",
+        "Lost": "8",
+        "Points": "12",
+        "NR": "0",
+        "NRR": "-0.304"
+      },
+      {
+        "Pos": "9",
+        "Team": "Delhi Capitals",
+        "Matches": "14",
+        "Won": "5",
+        "Lost": "9",
+        "Points": "10",
+        "NR": "0",
+        "NRR": "-0.808"
+      },
+      {
+        "Pos": "10",
+        "Team": "Sunrisers Hyderabad",
+        "Matches": "14",
+        "Won": "4",
+        "Lost": "10",
+        "Points": "8",
+        "NR": "0",
+        "NRR": "-0.590"
+      }
+    ]
+  }
+  

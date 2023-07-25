@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ipl scorecard</title>
+  <style type="text/css">
+    th{
+      width:50px;height:50px ;
+    }
+  head{
+    margin:10px;
+  }
+      table,th,td {
+        font-family: "Times new roman", "serif";
+        font-size: larger;
+        border: 1px ridge black;
+        text-align: center; 
+      }
+      table{
+        background-image:  linear-gradient(90deg,#007acc,#e6f5ff );
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:20px;
+      }
+      img {
+        float: left;
+        border-radius: 50%;
+        }
+      h1 {
+        margin :0px;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+      }
+      .list1 tr:hover:nth-child(odd) td{
+        background-color: #70dbdb;
+        }
+      .list1 tr:hover:nth-child(even) td{
+        background-color:  #1a1aff;
+        } 
+    body
+    {
+      margin : 0px;
+      height: 100px;
+      background-image: linear-gradient(90deg,  yellow, #ff0066 );
+    }
+  </style>
+</head>
+<body>
+    <div style="background-color: #002699; height:70px;" >
+        <h1><img src="C:\html\IPL-2023-Squads.jpg" height="70" width="100" > Indian Premier League, 2023</h1>
+    
+     </div>
+  <div id="tableContainer"></div>
+
+  <script>
+    function iplTable(data) {
+      const tableContainer = document.getElementById("tableContainer");
+      const table = document.createElement("table");
+
+      const tableHeader = document.createElement("tr");
+      for (const header of Object.keys(data.teams[0])) {
+        const th = document.createElement("th");
+        th.textContent = header;
+        tableHeader.appendChild(th);
+      }
+      table.appendChild(tableHeader);
+
+      for (const team of data.teams) {
+        const row = document.createElement("tr");
+        for (const value of Object.values(team)) {
+          const td = document.createElement("td");
+          td.textContent = value;
+          row.appendChild(td);
+        }
+        table.appendChild(row);
+      }
+
+      tableContainer.appendChild(table);
+    }
+
+    fetch('ipl.json')
+      .then(response => response.json())
+      .then(data => iplTable(data))
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+</body>
+</html>
